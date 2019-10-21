@@ -4,30 +4,41 @@
 
 ## Introduction
 
-In this lesson, we'll review all of the guidelines and specifications for the final project for Module 1.
+An analysis of the housing data from King county Washington.  This data set includes house sales in the county between May 2014 and May 2015.
 
-## Objectives
-You will be able to:
-* Describe all required aspects of the final project for Module 1
-* Describe all required deliverables
-* Describe what constitutes a successful project
-* Describe what the experience of the project review should be like
+## Goals
+We are attempting to help realtors select profitable properties for thier clients such as:
+* New home buyers
+* Families Reloacating
+* Investors looking for short tern or long term investments
+* Contractors looking to buy land and build
 
-## Final Project Summary
-
-You've made it all the way through the first module of this course - take a minute to celebrate your awesomeness!
-
-![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-v2-mod1-final-project/master/awesome.gif)
-
-All that remains in Module 1 is to put our newfound data science skills to use with a final project! You should expect this project to take between 20 and 25 hours of solid, focused effort. If you're done way quicker, go back and dig in deeper or try some of the optional "level up" suggestions. If you're worried that you're going to get to 30 hrs and still not even have the data imported, reach out to an instructor in Slack ASAP to get some help!
 
 ## The Dataset
 
-For this project, you'll be working with the King County House Sales dataset. We've modified the dataset to make it a bit more fun and challenging.  The dataset can be found in the file `"kc_house_data.csv"`, in this repo.
-
-The description of the column names can be found in the column_names.md file in this repository. As with most real world data sets, the column names are not perfectly described, so you'll have to do some research or use your best judgment if you have questions relating to what the data means.
-
-You'll clean, explore, and model this dataset with a multivariate linear regression to predict the sale price of houses as accurately as possible.
+The dataset consists of home sales from May 2014 through May 2015.
+The information provided for each home consists of the following categories:
+**Price** - This is our target
+**ID** - This is a unique identifier for each House in the dataset
+**Date** - This is the date of sale
+**Bedrooms** - This is the number of bedrooms in the house
+**Bathrooms** - This is the number of bathrooms in the house
+**Sqft_living** - This is the number of square feet in the living space
+**Sqft_lot** - This is the number of square feet in the total lot area
+**Floors** - This is the number of levels in the house
+**Waterfront** - This denotes whether or not the property is on the water
+**View** - This identifies how many times the house was viewed
+**Condition** - This tells the condition of the house from 1 (worn out) to 5 (excellent)
+**Grade** - The grade of the house based on the King Cointy grading system of 1(poor) to 13(excellent)
+**Sqft_above** - Total square feet without basement
+**Sqft_basement** - Square footage of the basement alone
+**Yr_built** - The year the house was originally built
+**Yr_renovated** - The year the house was renovated if it has been
+**Zipcode** - The zip code of the house
+**Lat** - The latitude location of the house
+**Long** - The longitude location of the house
+**Sqft_living15** - The square footage of the home in the year 2015
+**Sqft_lot15** - The square footage of the lot in 2015
 
 ## The Deliverables
 
