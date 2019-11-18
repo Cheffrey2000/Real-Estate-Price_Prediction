@@ -34,3 +34,10 @@ def make_pairplot(columns=None, df=None):
         df = df
     sns.pairplot(df, kind='scatter', vars=columns, height=2)
     plt.show()
+
+def make_kde(data=None, columns=None):
+    for column in columns:
+        data[column].plot.hist(normed=True )
+        data[column].plot.kde(label=column )
+        plt.legend()
+        plt.show()
