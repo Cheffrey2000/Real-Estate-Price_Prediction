@@ -27,12 +27,12 @@ def make_ols_model(df, target='price', columns_to_use=None, add_constant=False, 
 def lin_reg_plt(x=None, y=None, data=None):
     sns.lmplot(x=x, y=y, data=data, aspect=1, height=4)
     
-def make_pairplot(columns=None, df=None):
+def make_pairplot(columns=None, df=None, kind='scatter'):
     if columns is None:
         columns=['price', 'bedrooms', 'bathrooms', 'ren_period', 'sqft_living', 'floors', 'condition']
     if df is None:
         df = df
-    sns.pairplot(df, kind='scatter', vars=columns, height=2)
+    sns.pairplot(df, kind=kind, vars=columns, height=2)
     plt.show()
 
 def make_kde(data=None, columns=None):
