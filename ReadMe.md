@@ -1,8 +1,8 @@
 # Module 1 Final Project
 You can view my slide show here   
-* [Slide Show](https://docs.google.com/presentation/d/1ITFa71krhKkX4C8HIySYpUEuFkMvZifwNCHB182ttTc/edit?usp=sharing)
+* [Slide Show](https://docs.google.com/presentation/d/1ITFa71krhKkX4C8HIySYpUEuFkMvZifwNCHB182ttTc/edit?usp=sharing)  
 Read my Blog here
-* [Blog Post](https://medium.com/@cheffrey2000/mod-1-f26abf067969?sk=8dcf906c09791da4a675887cb6d96a55)
+* [Blog Post](https://medium.com/@cheffrey2000/mod-1-f26abf067969?sk=8dcf906c09791da4a675887cb6d96a55)  
 A recording of my presentation
 * [Video Presentation](https://youtu.be/0_oIYsPWQ5I)  
 
